@@ -1,0 +1,51 @@
+UNSAFE
+ /Users/rjhala/research/liquid/liquid-client/templates/flycheck_codeblock.hs:61:28-29: Error: Liquid Type Mismatch
+   Inferred type
+     VV : {VV : [[Char]] | len VV >= 0 && VV == ls && len VV >= 0}
+  
+   not a subtype of Required type
+     VV : {VV : [[Char]] | 2 <= len VV}
+  
+   In Context
+     VV : {VV : [[Char]] | len VV >= 0 && VV == ls && len VV >= 0}
+     ls : {ls : [[Char]] | len ls >= 0}
+ /Users/rjhala/research/liquid/liquid-client/templates/flycheck_codeblock.hs:70:28-29: Error: Liquid Type Mismatch
+   Inferred type
+     VV : {VV : [[Char]] | len VV >= 0 && VV == ls && len VV >= 0}
+  
+   not a subtype of Required type
+     VV : {VV : [{v : [Char] | len v >= 0}] | 2 <= len VV}
+  
+   In Context
+     VV : {VV : [[Char]] | len VV >= 0 && VV == ls && len VV >= 0}
+     ls : {ls : [[Char]] | len ls >= 0}
+ /Users/rjhala/research/liquid/liquid-client/templates/flycheck_codeblock.hs:71:28-30: Error: Liquid Type Mismatch
+   Inferred type
+     VV : {VV : [[Char]] | len VV == len ls - 2 && VV /= ls && VV == fix && len VV < len ls && len VV == len fix && len VV >= 0 && len VV >= 0 && VV == ls' && len VV >= 0}
+  
+   not a subtype of Required type
+     VV : {VV : [[Char]] | 2 <= len VV}
+  
+   In Context
+     VV  : {VV : [[Char]] | len VV == len ls - 2 && VV /= ls && VV == fix && len VV < len ls && len VV == len fix && len VV >= 0 && len VV >= 0 && VV == ls' && len VV >= 0}
+     ls' : {fix#ls#39# : [[Char]] | len ls' == len ls - 2 && ls' /= ls && ls' == fix && len ls' < len ls && len ls' == len fix && len ls' >= 0 && len ls' >= 0}
+     ls  : {ls : [[Char]] | len ls >= 0}
+ /Users/rjhala/research/liquid/liquid-client/templates/flycheck_codeblock.hs:79:16-35: Error: Liquid Type Mismatch
+   Inferred type
+     VV : {VV : [a] | VV /= ?c && VV /= ?a && VV /= ?e && VV /= xs && len VV < len ?c && len VV < len ?a && len VV < len ?e && len VV < len xs && len VV == len fix && len VV == len ?d && VV == ?d && len VV == len fix && len VV >= 0 && len VV >= 0}
+  
+   not a subtype of Required type
+     VV : {VV : [a] | len VV == len ?c - 2}
+  
+   In Context
+     VV  : {VV : [a] | VV /= ?c && VV /= ?a && VV /= ?e && VV /= xs && len VV < len ?c && len VV < len ?a && len VV < len ?e && len VV < len xs && len VV == len fix && len VV == len ?d && VV == ?d && len VV == len fix && len VV >= 0 && len VV >= 0}
+     x   : a
+     xs' : {v : [a] | v /= ?c && v /= ?a && v /= xs && v == snd ?b && v /= ?e && len v < len ?c && len v < len ?a && len v < len ?e && len v < len xs && len v >= 0 && len v >= 0}
+     xs  : {v : [a] | len v >= 0}
+     x'  : {VV : a | VV == fst ?b}
+     ?e  : {fix##63#e : [a] | len ?e == len xs && len ?e >= 0}
+     ?a  : {fix##63#a : [a] | 2 <= len ?a && len ?a >= 0 && ?a == ?c && len ?a >= 0 && (null ?a <=> false) && len ?a == 1 + len xs && xsListSelector ?a == xs && xListSelector ?a == x && ?a == GHC.Types.: x xs && ?a == GHC.Types.: x xs && (null ?a <=> false) && len ?a == 1 + len xs && xsListSelector ?a == xs && xListSelector ?a == x && ?a == GHC.Types.: x xs && len ?a >= 0}
+     ?d  : {fix##63#d : [a] | len ?d == len xs' && len ?d >= 0}
+     ?c  : {fix##63#c : [a] | 2 <= len ?c && len ?c >= 0}
+     ?f  : {fix##63#f : (a, [a]) | snd ?f == xs' && fst ?f == x' && x_Tuple22 ?f == xs' && x_Tuple21 ?f == x' && ?f == GHC.Tuple.(,) x' xs'}
+     ?b  : (a, [a])

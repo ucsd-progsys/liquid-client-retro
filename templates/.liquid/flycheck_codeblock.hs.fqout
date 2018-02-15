@@ -1,0 +1,160 @@
+UNSAT [508,492,439,370] 
+ 
+ 
+ 
+solution: k_1540 := [(false, BOT())] 
+
+solution: k_1562 := [(false, BOT())] 
+
+solution: k_1595 := [] 
+
+solution: k_1602 := [((len([VV#1601]) < len([ds_dpAk])), CmpLen1(VV#1601, ds_dpAk));((len([VV#1601]) < len([lq_anf__dpBe])), CmpLen1(VV#1601, lq_anf__dpBe));((len([VV#1601]) > 0), ListZ0(VV#1601));((len([VV#1601]) = len([xs#apqr])), CmpLen2(VV#1601, xs#apqr))] 
+
+solution: k_1606 := [((VV#1605 = fst([VV#1629])), Fst(VV#1605, VV#1629))] 
+
+solution: k_1616 := [((VV#1615 = snd([VV#1629])), Snd(VV#1615, VV#1629));((VV#1615 != ds_dpAs), Cmp(VV#1615, ds_dpAs));((len([VV#1615]) < len([ds_dpAk])), CmpLen1(VV#1615, ds_dpAk));((len([VV#1615]) < len([ds_dpAs])), CmpLen1(VV#1615, ds_dpAs));((len([VV#1615]) < len([lq_anf__dpBe])), CmpLen1(VV#1615, lq_anf__dpBe));((len([VV#1615]) < len([xs#apqr])), CmpLen1(VV#1615, xs#apqr));((len([VV#1615]) >= 0), ListZ(VV#1615))] 
+
+solution: k_1627 := [((VV#1626 != ds_dpAs), Cmp(VV#1626, ds_dpAs));((len([VV#1626]) < len([ds_dpAk])), CmpLen1(VV#1626, ds_dpAk));((len([VV#1626]) < len([ds_dpAs])), CmpLen1(VV#1626, ds_dpAs));((len([VV#1626]) < len([lq_anf__dpBe])), CmpLen1(VV#1626, lq_anf__dpBe));((len([VV#1626]) < len([xs#apqr])), CmpLen1(VV#1626, xs#apqr));((len([VV#1626]) >= 0), ListZ(VV#1626))] 
+
+solution: k_1630 := [] 
+
+solution: k_1651 := [(false, BOT())] 
+
+solution: k_1661 := [(false, BOT())] 
+
+solution: k_1672 := [(false, BOT())] 
+
+solution: k_1675 := [(false, BOT())] 
+
+solution: k_1712 := [((VV#1711 = x#apqv), Cmp3(VV#1711, x#apqv))] 
+
+solution: k_1722 := [((VV#1721 != ds_dpAs), Cmp(VV#1721, ds_dpAs));((VV#1721 != lq_anf__dpBf), Cmp(VV#1721, lq_anf__dpBf));((len([VV#1721]) < len([ds_dpAk])), CmpLen1(VV#1721, ds_dpAk));((len([VV#1721]) < len([ds_dpAs])), CmpLen1(VV#1721, ds_dpAs));((len([VV#1721]) < len([lq_anf__dpBe])), CmpLen1(VV#1721, lq_anf__dpBe));((len([VV#1721]) < len([lq_anf__dpBf])), CmpLen1(VV#1721, lq_anf__dpBf));((len([VV#1721]) < len([xs#apqr])), CmpLen1(VV#1721, xs#apqr));((len([VV#1721]) = len([xs#apqw])), CmpLen2(VV#1721, xs#apqw));((VV#1721 = xs#apqw), Cmp3(VV#1721, xs#apqw));((len([VV#1721]) >= 0), ListZ(VV#1721))] 
+
+solution: k_1734 := [((VV#1733 != ds_dpAs), Cmp(VV#1733, ds_dpAs));((VV#1733 != lq_anf__dpBf), Cmp(VV#1733, lq_anf__dpBf));((len([VV#1733]) < len([ds_dpAk])), CmpLen1(VV#1733, ds_dpAk));((len([VV#1733]) < len([ds_dpAs])), CmpLen1(VV#1733, ds_dpAs));((len([VV#1733]) < len([lq_anf__dpBe])), CmpLen1(VV#1733, lq_anf__dpBe));((len([VV#1733]) < len([lq_anf__dpBf])), CmpLen1(VV#1733, lq_anf__dpBf));((len([VV#1733]) < len([xs#apqr])), CmpLen1(VV#1733, xs#apqr));((len([VV#1733]) = len([xs#apqw])), CmpLen2(VV#1733, xs#apqw));((VV#1733 = xs#apqw), Cmp3(VV#1733, xs#apqw));((len([VV#1733]) >= 0), ListZ(VV#1733))] 
+
+solution: k_1748 := [] 
+
+solution: k_1764 := [] 
+
+solution: k_1770 := [((VV#1769 = fst([ds_dpAn])), Fst(VV#1769, ds_dpAn))] 
+
+solution: k_1808 := [((VV#1807 != ds_dpAk), Cmp(VV#1807, ds_dpAk));((VV#1807 != lq_anf__dpBe), Cmp(VV#1807, lq_anf__dpBe));((VV#1807 != xs#apqr), Cmp(VV#1807, xs#apqr));((VV#1807 = snd([ds_dpAn])), Snd(VV#1807, ds_dpAn));((VV#1807 != lq_anf__dpBg), Cmp(VV#1807, lq_anf__dpBg));((len([VV#1807]) < len([ds_dpAk])), CmpLen1(VV#1807, ds_dpAk));((len([VV#1807]) < len([lq_anf__dpBe])), CmpLen1(VV#1807, lq_anf__dpBe));((len([VV#1807]) < len([lq_anf__dpBg])), CmpLen1(VV#1807, lq_anf__dpBg));((len([VV#1807]) < len([xs#apqr])), CmpLen1(VV#1807, xs#apqr));((len([VV#1807]) >= 0), ListZ(VV#1807))] 
+
+solution: k_1847 := [((VV#1846 = fix#x#39##35#aptB), Cmp3(VV#1846, fix#x#39##35#aptB));((VV#1846 = fst([ds_dpAn])), Fst(VV#1846, ds_dpAn))] 
+
+solution: k_1857 := [((len([VV#1856]) = len([fix#xs#39##35#aptC])), CmpLen2(VV#1856, fix#xs#39##35#aptC));((VV#1856 != ds_dpAk), Cmp(VV#1856, ds_dpAk));((VV#1856 != lq_anf__dpBe), Cmp(VV#1856, lq_anf__dpBe));((VV#1856 != lq_anf__dpBg), Cmp(VV#1856, lq_anf__dpBg));((VV#1856 != xs#apqr), Cmp(VV#1856, xs#apqr));((VV#1856 = fix#xs#39##35#aptC), Cmp3(VV#1856, fix#xs#39##35#aptC));((len([VV#1856]) < len([ds_dpAk])), CmpLen1(VV#1856, ds_dpAk));((len([VV#1856]) < len([lq_anf__dpBe])), CmpLen1(VV#1856, lq_anf__dpBe));((len([VV#1856]) < len([lq_anf__dpBg])), CmpLen1(VV#1856, lq_anf__dpBg));((len([VV#1856]) < len([xs#apqr])), CmpLen1(VV#1856, xs#apqr));((len([VV#1856]) >= 0), ListZ(VV#1856));((VV#1856 = snd([ds_dpAn])), Snd(VV#1856, ds_dpAn))] 
+
+solution: k_1869 := [((len([VV#1868]) = len([fix#xs#39##35#aptC])), CmpLen2(VV#1868, fix#xs#39##35#aptC));((VV#1868 != ds_dpAk), Cmp(VV#1868, ds_dpAk));((VV#1868 != lq_anf__dpBe), Cmp(VV#1868, lq_anf__dpBe));((VV#1868 != lq_anf__dpBg), Cmp(VV#1868, lq_anf__dpBg));((VV#1868 != xs#apqr), Cmp(VV#1868, xs#apqr));((VV#1868 = fix#xs#39##35#aptC), Cmp3(VV#1868, fix#xs#39##35#aptC));((len([VV#1868]) < len([ds_dpAk])), CmpLen1(VV#1868, ds_dpAk));((len([VV#1868]) < len([lq_anf__dpBe])), CmpLen1(VV#1868, lq_anf__dpBe));((len([VV#1868]) < len([lq_anf__dpBg])), CmpLen1(VV#1868, lq_anf__dpBg));((len([VV#1868]) < len([xs#apqr])), CmpLen1(VV#1868, xs#apqr));((len([VV#1868]) >= 0), ListZ(VV#1868));((VV#1868 = snd([ds_dpAn])), Snd(VV#1868, ds_dpAn))] 
+
+solution: k_1877 := [((VV#1876 = fst([ds_dpAp])), Fst(VV#1876, ds_dpAp));((VV#1876 = fix#x#39##35#aptB), Cmp3(VV#1876, fix#x#39##35#aptB));((VV#1876 = fst([ds_dpAn])), Fst(VV#1876, ds_dpAn))] 
+
+solution: k_1915 := [((VV#1914 = snd([ds_dpAp])), Snd(VV#1914, ds_dpAp));((VV#1914 != ds_dpAk), Cmp(VV#1914, ds_dpAk));((VV#1914 != lq_anf__dpBe), Cmp(VV#1914, lq_anf__dpBe));((VV#1914 != lq_anf__dpBg), Cmp(VV#1914, lq_anf__dpBg));((VV#1914 != xs#apqr), Cmp(VV#1914, xs#apqr));((VV#1914 = fix#xs#39##35#aptC), Cmp3(VV#1914, fix#xs#39##35#aptC));((len([VV#1914]) < len([ds_dpAk])), CmpLen1(VV#1914, ds_dpAk));((len([VV#1914]) < len([lq_anf__dpBe])), CmpLen1(VV#1914, lq_anf__dpBe));((len([VV#1914]) < len([lq_anf__dpBg])), CmpLen1(VV#1914, lq_anf__dpBg));((len([VV#1914]) < len([xs#apqr])), CmpLen1(VV#1914, xs#apqr));((len([VV#1914]) = len([fix#xs#39##35#aptC])), CmpLen2(VV#1914, fix#xs#39##35#aptC));((len([VV#1914]) >= 0), ListZ(VV#1914));((VV#1914 = snd([ds_dpAn])), Snd(VV#1914, ds_dpAn))] 
+
+solution: k_1980 := [((VV#1979 != ds_dpAk), Cmp(VV#1979, ds_dpAk));((VV#1979 != lq_anf__dpBe), Cmp(VV#1979, lq_anf__dpBe));((VV#1979 != lq_anf__dpBg), Cmp(VV#1979, lq_anf__dpBg));((VV#1979 != xs#apqr), Cmp(VV#1979, xs#apqr));((len([VV#1979]) < len([ds_dpAk])), CmpLen1(VV#1979, ds_dpAk));((len([VV#1979]) < len([lq_anf__dpBe])), CmpLen1(VV#1979, lq_anf__dpBe));((len([VV#1979]) < len([lq_anf__dpBg])), CmpLen1(VV#1979, lq_anf__dpBg));((len([VV#1979]) < len([xs#apqr])), CmpLen1(VV#1979, xs#apqr));((len([VV#1979]) = len([fix#xs#39##35#aptC])), CmpLen2(VV#1979, fix#xs#39##35#aptC));((len([VV#1979]) = len([lq_anf__dpBl])), CmpLen2(VV#1979, lq_anf__dpBl));((VV#1979 = lq_anf__dpBl), Cmp3(VV#1979, lq_anf__dpBl));((len([VV#1979]) = len([fix#xs#39##35#apqt])), CmpLen2(VV#1979, fix#xs#39##35#apqt));((len([VV#1979]) >= 0), ListZ(VV#1979))] 
+
+solution: k_2430 := [((len([VV#2429]) >= 0), ListZ(VV#2429))] 
+
+solution: k_2455 := [((len([VV#2454]) >= 0), ListZ(VV#2454))] 
+
+solution: k_2579 := [((VV#2578 != ls#apqc), Cmp(VV#2578, ls#apqc));((len([VV#2578]) < len([ls#apqc])), CmpLen1(VV#2578, ls#apqc));((len([VV#2578]) = (len([ls#apqc]) - 2)), Auto0(VV#2578, ls#apqc));((len([VV#2578]) >= 0), ListZ(VV#2578))] 
+
+solution: k_2695 := [((len([VV#2694]) >= 0), ListZ(VV#2694))] 
+
+solution: k_2815 := [((len([VV#2814]) = len([c1#apwW])), CmpLen2(VV#2814, c1#apwW));((VV#2814 = c1#apwW), Cmp3(VV#2814, c1#apwW));((len([VV#2814]) >= 0), ListZ(VV#2814))] 
+
+solution: k_2843 := [((len([VV#2842]) = len([fix#ls#39##35#apwX])), CmpLen2(VV#2842, fix#ls#39##35#apwX));((len([VV#2842]) = (len([ls#apqc]) - 2)), Auto0(VV#2842, ls#apqc));((VV#2842 != ls#apqc), Cmp(VV#2842, ls#apqc));((VV#2842 = fix#ls#39##35#apwX), Cmp3(VV#2842, fix#ls#39##35#apwX));((len([VV#2842]) < len([ls#apqc])), CmpLen1(VV#2842, ls#apqc));((len([VV#2842]) >= 0), ListZ(VV#2842))] 
+
+solution: k_2863 := [((len([VV#2862]) = len([fix#c1#39##35#apwY])), CmpLen2(VV#2862, fix#c1#39##35#apwY));((VV#2862 = fix#c1#39##35#apwY), Cmp3(VV#2862, fix#c1#39##35#apwY));((len([VV#2862]) >= 0), ListZ(VV#2862))] 
+
+solution: k_2877 := [((len([VV#2876]) = len([fix#c1#39##35#apwY])), CmpLen2(VV#2876, fix#c1#39##35#apwY));((VV#2876 = fix#c1#39##35#apwY), Cmp3(VV#2876, fix#c1#39##35#apwY));((len([VV#2876]) >= 0), ListZ(VV#2876))] 
+
+solution: k_2905 := [((len([VV#2904]) = len([fix#ls#39##35#apwX])), CmpLen2(VV#2904, fix#ls#39##35#apwX));((len([VV#2904]) = (len([ls#apqc]) - 2)), Auto0(VV#2904, ls#apqc));((VV#2904 != ls#apqc), Cmp(VV#2904, ls#apqc));((VV#2904 = fix#ls#39##35#apwX), Cmp3(VV#2904, fix#ls#39##35#apwX));((len([VV#2904]) < len([ls#apqc])), CmpLen1(VV#2904, ls#apqc));((len([VV#2904]) >= 0), ListZ(VV#2904))] 
+
+solution: k_2936 := [((VV#2935 = c1#apwW), Cmp3(VV#2935, c1#apwW));((len([VV#2935]) = len([c1#apwW])), CmpLen2(VV#2935, c1#apwW));((len([VV#2935]) >= 0), ListZ(VV#2935))] 
+
+solution: k_3060 := [((len([VV#3059]) = (len([ls#apqc]) - 2)), Auto0(VV#3059, ls#apqc));((VV#3059 != ls#apqc), Cmp(VV#3059, ls#apqc));((VV#3059 = fix#ls#39##35#apwX), Cmp3(VV#3059, fix#ls#39##35#apwX));((len([VV#3059]) < len([ls#apqc])), CmpLen1(VV#3059, ls#apqc));((len([VV#3059]) = len([fix#ls#39##35#apwX])), CmpLen2(VV#3059, fix#ls#39##35#apwX));((len([VV#3059]) >= 0), ListZ(VV#3059))] 
+
+solution: k_3176 := [((VV#3175 = fix#c1#39##35#apwY), Cmp3(VV#3175, fix#c1#39##35#apwY));((len([VV#3175]) = len([fix#c1#39##35#apwY])), CmpLen2(VV#3175, fix#c1#39##35#apwY));((len([VV#3175]) >= 0), ListZ(VV#3175))] 
+
+//QUALIFIERS 
+
+qualif Auto(xs:FAppTy (List ) @(0)):(2 <= len([xs]))
+
+qualif Auto0(v:FAppTy (List ) @(0), fix##126#A0:FAppTy (List ) @(0)):(len([v]) = (len([fix##126#A0]) - 2))
+
+qualif Bot(v:@(0)):(0 = 1)
+qualif Bot0(v:bool):(0 = 1)
+
+qualif Bot1(v:int):(0 = 1)
+
+qualif Cmp(v:@(0), fix##126#X:@(0)):(v != fix##126#X)
+
+qualif Cmp0(v:@(0), fix##126#X:@(0)):(v < fix##126#X)
+
+qualif Cmp1(v:@(0), fix##126#X:@(0)):(v > fix##126#X)
+
+qualif Cmp2(v:@(0), fix##126#X:@(0)):(v <= fix##126#X)
+
+qualif Cmp3(v:@(0), fix##126#X:@(0)):(v = fix##126#X)
+
+qualif Cmp4(v:@(0), fix##126#X:@(0)):(v >= fix##126#X)
+
+qualif CmpLen(v:FAppTy (List ) @(1), fix##126#Xs:FAppTy (List ) @(0)):(len([v]) > len([fix##126#Xs]))
+
+qualif CmpLen0(v:FAppTy (List ) @(1), fix##126#Xs:FAppTy (List ) @(0)):(len([v]) >= len([fix##126#Xs]))
+
+qualif CmpLen1(v:FAppTy (List ) @(1), fix##126#Xs:FAppTy (List ) @(0)):(len([v]) < len([fix##126#Xs]))
+
+qualif CmpLen2(v:FAppTy (List ) @(1), fix##126#Xs:FAppTy (List ) @(0)):(len([v]) = len([fix##126#Xs]))
+
+qualif CmpLen3(v:FAppTy (List ) @(1), fix##126#Xs:FAppTy (List ) @(0)):(len([v]) <= len([fix##126#Xs]))
+
+qualif CmpZ(v:@(0)):(v < 0)
+qualif CmpZ0(v:@(0)):(v >= 0)
+
+qualif CmpZ1(v:@(0)):(v != 0)
+qualif CmpZ2(v:@(0)):(v <= 0)
+
+qualif CmpZ3(v:@(0)):(v = 0)
+qualif CmpZ4(v:@(0)):(v > 0)
+
+qualif EqLen(v:int, fix##126#Xs:FAppTy (List ) @(0)):(v = len([fix##126#Xs]))
+
+qualif False(v:bool):(~ ((Bexp v)))
+
+qualif False1(v:GHC.Types.Bool ):(~ (Prop(v)))
+
+qualif Fst(v:@(1), fix##126#Y:@(0)):(v = fst([fix##126#Y]))
+
+qualif IsEmp(v:GHC.Types.Bool , fix##126#Xs:FAppTy (List ) @(0)):(Prop(v) <=> (len([fix##126#Xs]) = 0))
+
+qualif IsEmp0(v:GHC.Types.Bool , fix##126#Xs:FAppTy (List ) @(0)):(Prop(v) <=> (len([fix##126#Xs]) > 0))
+
+qualif LenAcc(v:int, fix##126#Xs:FAppTy (List ) @(0), fix##126#N:int):(v = (len([fix##126#Xs]) + fix##126#N))
+
+qualif LenDiff(v:FAppTy (List ) @(0), fix##126#X:int):(len([v]) = (fix##126#X - 1))
+
+qualif LenDiff0(v:FAppTy (List ) @(0), fix##126#X:int):(len([v]) = (fix##126#X + 1))
+
+qualif LenEq(v:FAppTy (List ) @(0), fix##126#X:int):(fix##126#X = len([v]))
+
+qualif ListZ(v:FAppTy (List ) @(0)):(len([v]) >= 0)
+
+qualif ListZ0(v:FAppTy (List ) @(0)):(len([v]) > 0)
+
+qualif ListZ1(v:FAppTy (List ) @(0)):(len([v]) = 0)
+
+qualif One(v:int):(v = 1)
+
+qualif Papp(v:@(0), fix##126#P:FAppTy (Pred ) @(0)):papp1(fix##126#P, v)
+
+qualif Papp2(v:@(1), fix##126#X:@(0), fix##126#P:FAppTy (FAppTy (Pred ) @(1)) @(0)):papp2(fix##126#P, v, fix##126#X)
+
+qualif Papp3(v:@(2), fix##126#X:@(0), fix##126#Y:@(1), fix##126#P:FAppTy (FAppTy (FAppTy (Pred ) @(2)) @(0)) @(1)):papp3(fix##126#P, v, fix##126#X, fix##126#Y)
+
+qualif Snd(v:@(1), fix##126#Y:@(0)):(v = snd([fix##126#Y]))
+
+qualif True(v:bool):(Bexp v)
+
+qualif True1(v:GHC.Types.Bool ):Prop(v) 
+

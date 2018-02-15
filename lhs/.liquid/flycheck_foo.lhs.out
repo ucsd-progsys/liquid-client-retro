@@ -1,0 +1,12 @@
+UNSAFE
+ /Users/rjhala/research/liquid/liquid-client/lhs/flycheck_foo.lhs:23:10-14: Error: Liquid Type Mismatch
+   Inferred type
+     VV : Int | VV == x - ?a
+  
+   not a subtype of Required type
+     VV : Int | VV >= 0
+  
+   In Context
+     VV : Int | VV == x - ?a
+     ?a : Int | ?a == 1
+     x  : Int | v >= 0
