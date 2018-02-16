@@ -11,6 +11,7 @@ $ mkdir tutorial
 $ cd tutorial
 $ git clone git@github.com:ucsd-progsys/liquid-client-retro.git
 $ git clone git@github.com:ucsd-progsys/lh-workshop.git
+$ cd lh-workshop
 $ stack exec -- make
 ```
 
